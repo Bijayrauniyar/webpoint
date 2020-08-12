@@ -1,0 +1,192 @@
+body {
+  background: $white;
+  color: $textColor;
+  font-family: 'Circe', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  /* Header */
+  header {
+    padding: 53px 44px;
+  }
+  /* Hero Video */
+  .HeroVideo {
+    margin-top: 49px;
+    &_text {
+      h1 {
+        font-family: 'Circe Light', sans-serif;
+        font-style: normal;
+        font-size: 69px;
+        font-weight: 300;
+        line-height: 121.9%;
+        letter-spacing: -0.025em;
+      }
+      a {
+        color: $black;
+        font-family: 'Circe Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 29px;
+        line-height: 121.4%;
+        position: relative;
+        text-decoration: none;
+        transition: all ease 300ms;
+        &:after {
+          content: '';
+          border: 1px solid rgba($color: $black, $alpha: 0.3);
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          transition: all ease 500ms;
+          width: 100%;
+        }
+        &:hover {
+          color: $blue;
+          transition: all ease 500ms;
+          &:after {
+            border: 1px solid rgba($color: $blue, $alpha: 0.3);
+            transition: all ease 500ms;
+          }
+        }
+      }
+    }
+    &_video {
+      margin-top: 159px;
+      video {
+        width: 100%;
+      }
+    }
+  }
+  /* Services */
+  .Services {
+    margin-top: 273px;
+    &_list {
+      margin-top: 30px;
+      margin-left: 240px;
+      &_wrap {
+        margin-bottom: 35px;
+      }
+      &_title {
+        font-size: 36px;
+        line-height: 121.4%;
+      }
+      &_description {
+        display: none;
+        list-style: none;
+        margin: 0 0 53px 0;
+        padding: 0;
+        li {
+          font-family: 'Circe Light', sans-serif;;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 164.4%;
+        }
+      }
+    }
+  }
+  /* Work */
+  .Work {
+    margin-top: 263px;
+    .section-title {
+      margin-bottom: 73px;
+    }
+    &_list {
+      margin-bottom: 238px;
+      &_title {
+        color: $black;
+        font-size: 28px;
+        line-height: 117.4%;
+        margin-top: 32px;
+      }
+      &_description {
+        color: $descriptionText;
+        font-family: 'Circe Light', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 117.4%;
+        margin-top: 11px;
+        opacity: 0.7;
+      }
+    }
+  }
+  /* Footer */
+  .footer {
+    background: $footerBg;
+    padding: 111px 0 26px 0;
+    font-family: 'Circe Light',sans-serif;
+    &_left {
+      margin-right: 226px;
+      &_title {
+        color: $footerTitle;
+        display: block;
+        font-weight: 300;
+        font-size: 29px;
+        line-height: 117.4%;
+        letter-spacing: -0.005em;
+      }
+      &_link {
+        color: $white;
+        display: block;
+        font-weight: 300;
+        font-size: 79px;
+        line-height: 117.4%;
+        letter-spacing: -0.005em;
+        margin-top: 22px;
+        position: relative;
+        text-decoration: none;
+        &:after {
+          content: '';
+          border: 3px solid $white;
+          position: absolute;
+          bottom: -8px;
+          left: 0;
+          transition: all ease 500ms;
+          width: 100%;
+        }
+      }
+    }
+    &_right {
+      &_title {
+        color: $white;
+        display: block;
+        font-size: 18px;
+        line-height: 117.4%;
+        margin-bottom: 15px;
+        opacity: 0.61;
+      }
+      &_description {
+        color: $white;
+        display: block;
+        font-size: 22px;
+        line-height: 136.4%;
+        margin-bottom: 58px;
+        a {
+          color: $white;
+          text-decoration: none;
+        }
+      }
+      .facebook {
+        color: $white;
+        display: block;
+        font-size: 16px;
+        line-height: 117.4%;
+        margin-top: -33px;
+        opacity: 0.61;
+        text-decoration: none;
+      }
+    }
+    &_bottom {
+      color: $copyrightColor;
+      font-size: 14px;
+      line-height: 117.4%;
+      margin-top: 94px;
+      opacity: 0.5;
+      a {
+        color: $copyrightColor;
+        display: inline-block;
+        margin-left: 50px;
+        text-decoration: none;
+      }
+    }
+  }
+}

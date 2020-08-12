@@ -1,0 +1,97 @@
+import React from "react"
+
+const Work = () => (
+  <section className="Work">
+    <div className="container-fluid">
+      <div className="row justify-content-center">
+        <div className="col-lg-10">
+          <span className="section-title">Our Work</span>
+          <div className="Work_list">
+            <video
+              muted=""
+              playsinline=""
+              crossorigin=""
+              loop=""
+              preload="auto"
+              src="videos/Lineage.webm"
+              autoplay
+            ></video>
+            <div className="Work_list_title">Lineage Journey</div>
+            <div className="Work_list_description">
+              UX/UI, Mobile, Fron-end, Back-end
+            </div>
+          </div>
+          <div className="Work_list">
+            <video
+              muted=""
+              playsinline=""
+              crossorigin=""
+              loop=""
+              preload="auto"
+              src="videos/Cryptox.webm"
+              autoplay
+            ></video>
+            <div className="Work_list_title">Cryptox</div>
+            <div className="Work_list_description">
+              UX/UI, Mobile, Fron-end, Back-end
+            </div>
+          </div>
+          <div className="Work_list">
+            <video
+              muted=""
+              playsinline=""
+              crossorigin=""
+              loop=""
+              preload="auto"
+              src="videos/Lineage.webm"
+              autoplay
+            ></video>
+            <div className="Work_list_title">Newstart</div>
+            <div className="Work_list_description">
+              UX/UI, Mobile, Fron-end, Back-end
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <div className="Work_list">
+                <img src="images/Youth-Summit.png" alt="" />
+                <div className="Work_list_title">Youth Summit</div>
+                <div className="Work_list_description">
+                  UX/UI, Mobile, Fron-end, Back-end
+                </div>
+              </div>
+              <div className="Work_list">
+                <img src="images/Children's-Century.png" alt="" />
+                <div className="Work_list_title">
+                  Children's Century ClassNameics
+                </div>
+              </div>
+              <div className="Work_list">
+                <img src="images/Family-Home-Christian-Books.png" alt="" />
+                <div className="Work_list_title">
+                  Family Home Christian Books
+                </div>
+              </div>
+            </div>
+            <div className="col mt185">
+              <div className="Work_list">
+                <img src="images/Corniche-Watches.png" alt="" />
+                <div className="Work_list_title">Corniche Watches</div>
+              </div>
+              <div className="Work_list">
+                <img src="images/LSAT-Preparation.png" alt="" />
+                <div className="Work_list_title">LSAT Preparation</div>
+              </div>
+              <div className="Work_list">
+                <img src="images/Plate-App.png" alt="" />
+                <div className="Work_list_title">Plate App</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+)
+
+export default Work
