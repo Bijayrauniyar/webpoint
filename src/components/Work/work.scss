@@ -1,25 +1,36 @@
+$white: #ffffff;
+$black: #000000;
+$blue: #1f4ce4;
+$textColor: #1a191b;
+$descriptionText: #4e4f61;
+$navigationBg: #03030c;
+$footerBg: #15141a;
+$footerTitle: #cccccc;
+$copyrightColor: #dddddd;
+$activeLink: #1181ee;
+
 /* Work */
 .Work {
-    margin-top: 263px;
-    .section-title {
-      margin-bottom: 73px;
+  margin-top: 263px;
+  .section-title {
+    margin-bottom: 73px;
+  }
+  &_list {
+    margin-bottom: 238px;
+    &_title {
+      color: $black;
+      font-size: 28px;
+      line-height: 117.4%;
+      margin-top: 32px;
     }
-    &_list {
-      margin-bottom: 238px;
-      &_title {
-        color: $black;
-        font-size: 28px;
-        line-height: 117.4%;
-        margin-top: 32px;
-      }
-      &_description {
-        color: $descriptionText;
-        font-family: 'Circe Light', sans-serif;
-        font-weight: 300;
-        font-size: 22px;
-        line-height: 117.4%;
-        margin-top: 11px;
-        opacity: 0.7;
-      }
+    &_description {
+      color: $descriptionText;
+      font-family: "Circe Light", sans-serif;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 117.4%;
+      margin-top: 11px;
+      opacity: 0.7;
     }
+  }
 }

@@ -3,7 +3,7 @@ import "../../css/base.scss"
 import "../../css/variables.scss"
 import "../../css/fonts.scss"
 import "../../css/components.scss"
-import './navigation.scss';
+import "./navigation.scss"
 
 const Navigation = () => (
   <section className="Navigation">
@@ -18,13 +18,25 @@ const Navigation = () => (
           <img src="images/close.svg" alt="" />
         </div>
         <div className="col-lg-11 navbar">
-            <ul className="menu">
-                <li><a className="active" href="#">Home</a></li>
-                <li><a href="#">Agency</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <a href="#" className="facebook" >Facebook</a>
+          <ul className="menu">
+            <li>
+              <a className="active" href="#">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#">Agency</a>
+            </li>
+            <li>
+              <a href="#">Work</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <a href="#" className="facebook">
+            Facebook
+          </a>
         </div>
       </div>
     </div>
