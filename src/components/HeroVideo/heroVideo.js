@@ -1,4 +1,9 @@
 import React from "react"
+import "../../css/base.scss"
+import "../../css/variables.scss"
+import "../../css/fonts.scss"
+import "../../css/components.scss"
+import './heroVideo.scss';
 
 const HeroVideo = () => (
   <section className="HeroVideo">

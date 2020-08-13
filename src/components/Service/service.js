@@ -1,4 +1,9 @@
 import React from "react"
+import "../../css/base.scss"
+import "../../css/variables.scss"
+import "../../css/fonts.scss"
+import "../../css/components.scss"
+import './services.scss'
 
 const Service = () => (
   <section className="Services">
@@ -12,7 +17,7 @@ const Service = () => (
               <ul className="Services_list_description">
                 <li>UI/UX design</li>
                 <li>Branding / Logo design</li>
-                <li>Websites & mobile apps</li>
+                <li>Websites &amp; mobile apps</li>
                 <li>Prototyping and testing</li>
               </ul>
             </div>

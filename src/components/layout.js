@@ -9,9 +9,9 @@ import React from "react"
 //import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./Header/header"
-import "../css/main.css"
 import "../css/bootstrap-grid.min.css"
 import Footer from "./Footer/footer"
+import Navigation from "./Navigation/nav"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -27,6 +27,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
+      <Navigation />
       <div>
         <main>{children}</main>
         <Footer />
