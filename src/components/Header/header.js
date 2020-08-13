@@ -1,30 +1,39 @@
 //import { Link } from "gatsby"
-import React from "react"
-import "../../css/base.scss"
-import "../../css/variables.scss"
-import "../../css/fonts.scss"
-import "../../css/components.scss"
-import './header.scss';
+import React, { useState } from "react"
+import "./header.scss"
+import Navigation from "../Navigation/nav"
+import { Link } from "gatsby"
 
-const Header = () => (
-  <header>
-    <div className="container-fluid">
-      <div className="d-flex row justify-content-center">
-        <div className="col-lg-12 d-flex justify-content-between">
-          <div className="logo">
-            <a href="#">
-              <img src="images/logo-blue.svg" />
-            </a>
-          </div>
-          <div className="menu">
-            <a href="#">
-              <img src="images/menu.svg" />
-            </a>
+const Header = () => {
+  const [menu, setMenu] = useState(false)
+
+  const menuToggle = () => {
+    setMenu(!menu)
+  }
+
+  return (
+    <>
+      <header>
+        <div className="container-fluid">
+          <div className="d-flex row justify-content-center">
+            <div className="col-lg-12 d-flex justify-content-between">
+              <div className="logo">
+                <Link to="">
+                  <img src="images/logo-blue.svg" />
+                </Link>
+              </div>
+              <div className="menu">
+                <a href="#" onClick={menuToggle}>
+                  <img src="images/menu.svg" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </header>
-)
+      </header>
+      {menu && <Navigation menuToggle={menuToggle} />}
+    </>
+  )
+}
 
 export default Header

@@ -3,7 +3,7 @@ import "../../css/base.scss"
 import "../../css/variables.scss"
 import "../../css/fonts.scss"
 import "../../css/components.scss"
-import './work.scss'
+import "./work.scss"
 
 const Work = () => (
   <section className="Work">
