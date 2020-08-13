@@ -16,14 +16,16 @@ const HeroVideo = () => (
         <div className="col-lg-11">
           <div className="HeroVideo_video">
             <video
-              muted=""
-              playsinline=""
-              crossorigin=""
-              loop=""
+              muted
+              playsInline
+              crossOrigin
+              loop
+              poster
               preload="auto"
-              src="video/Webpoint Reel.webm"
-              autoplay
-            ></video>
+              autoPlay
+            >
+              <source src="videos/Webpoint Reel.webm" type="video/webm" />
+            </video>
           </div>
         </div>
       </div>

@@ -8,14 +8,16 @@ const Work = () => (
           <span className="section-title">Our Work</span>
           <div className="Work_list">
             <video
-              muted=""
-              playsinline=""
-              crossorigin=""
-              loop=""
+              muted
+              playsInline
+              crossOrigin
+              loop
+              poster
               preload="auto"
-              src="videos/Lineage.webm"
-              autoplay
-            ></video>
+              autoPlay
+            >
+              <source src="videos/Lineage.webm" type="video/webm" />
+            </video>
             <div className="Work_list_title">Lineage Journey</div>
             <div className="Work_list_description">
               UX/UI, Mobile, Fron-end, Back-end
@@ -23,14 +25,16 @@ const Work = () => (
           </div>
           <div className="Work_list">
             <video
-              muted=""
-              playsinline=""
-              crossorigin=""
-              loop=""
+              muted
+              playsInline
+              crossOrigin
+              loop
+              poster
               preload="auto"
-              src="videos/Cryptox.webm"
-              autoplay
-            ></video>
+              autoPlay
+            >
+              <source src="videos/Cryptox.webm" type="video/webm" />
+            </video>
             <div className="Work_list_title">Cryptox</div>
             <div className="Work_list_description">
               UX/UI, Mobile, Fron-end, Back-end
@@ -38,14 +42,16 @@ const Work = () => (
           </div>
           <div className="Work_list">
             <video
-              muted=""
-              playsinline=""
-              crossorigin=""
-              loop=""
+              muted
+              playsInline
+              crossOrigin
+              loop
+              poster
               preload="auto"
-              src="videos/Lineage.webm"
-              autoplay
-            ></video>
+              autoPlay
+            >
+              <source src="videos/Newstart.webm" type="video/webm" />
+            </video>
             <div className="Work_list_title">Newstart</div>
             <div className="Work_list_description">
               UX/UI, Mobile, Fron-end, Back-end

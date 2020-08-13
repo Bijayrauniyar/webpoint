@@ -1,24 +1,24 @@
 import React from "react"
 
 const Service = () => (
-  <section class="Services">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-lg-10 d-flex">
-          <span class="section-title">Our Sevices</span>
-          <div class="Services_list">
-            <div class="Services_list_wrap">
-              <span class="Services_list_title">Design</span>
-              <ul class="Services_list_description">
+  <section className="Services">
+    <div className="container-fluid">
+      <div className="row justify-content-center">
+        <div className="col-lg-10 d-flex">
+          <span className="section-title">Our Sevices</span>
+          <div className="Services_list">
+            <div className="Services_list_wrap">
+              <span className="Services_list_title">Design</span>
+              <ul className="Services_list_description">
                 <li>UI/UX design</li>
                 <li>Branding / Logo design</li>
                 <li>Websites & mobile apps</li>
                 <li>Prototyping and testing</li>
               </ul>
             </div>
-            <div class="Services_list_wrap">
-              <span class="Services_list_title">Development</span>
-              <ul class="Services_list_description">
+            <div className="Services_list_wrap">
+              <span className="Services_list_title">Development</span>
+              <ul className="Services_list_description">
                 <li>HTML/CSS/JS</li>
                 <li>React/Angular/Vue</li>
                 <li>Backend/API integrations</li>
@@ -27,9 +27,9 @@ const Service = () => (
                 <li>WordPress</li>
               </ul>
             </div>
-            <div class="Services_list_wrap">
-              <span class="Services_list_title">E-Commerce</span>
-              <ul class="Services_list_description">
+            <div className="Services_list_wrap">
+              <span className="Services_list_title">E-Commerce</span>
+              <ul className="Services_list_description">
                 <li>Shopify</li>
                 <li>WooCommerce</li>
                 <li>BigCommerce</li>
@@ -37,9 +37,9 @@ const Service = () => (
                 <li>Magento</li>
               </ul>
             </div>
-            <div class="Services_list_wrap">
-              <span class="Services_list_title">Content</span>
-              <ul class="Services_list_description">
+            <div className="Services_list_wrap">
+              <span className="Services_list_title">Content</span>
+              <ul className="Services_list_description">
                 <li>Copywriting</li>
                 <li>Animation</li>
                 <li>Iconography</li>
