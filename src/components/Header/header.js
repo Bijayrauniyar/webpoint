@@ -22,7 +22,7 @@ const Header = () => {
                   <img src="images/logo-blue.svg" />
                 </Link>
               </div>
-              <div className="menu">
+              <div className="menu d-flex align-items-center">
                 <a href="#" onClick={menuToggle}>
                   <img src="images/menu.svg" />
                 </a>

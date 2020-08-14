@@ -1,3 +1,4 @@
+@import "../../css/function";
 @import "../../css/variables";
 
 /* Navigation */
@@ -47,6 +48,24 @@
         &:last-child {
           margin-left: 124px;
         }
+        @include respond-above(lg) {
+          a {
+            font-size: 55px;
+          }
+        }
+        @include respond-above(sm) {
+          display: block;
+          margin-left: 124px;
+          &:first-child {
+            margin-left: 124px;
+            &:before {
+              display: block;
+            }
+          }
+        }
+      }
+      @include respond-above(sm) {
+        margin-top: 100px;
       }
     }
     .facebook {

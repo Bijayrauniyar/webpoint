@@ -1,3 +1,4 @@
+@import "../../css/function";
 @import "../../css/variables";
 
 /* Hero Video */
@@ -38,6 +39,11 @@
           border: 1px solid rgba($color: $blue, $alpha: 0.3);
           transition: all ease 500ms;
         }
+      }
+    }
+    @include respond-above(sm) {
+      h1 {
+        font-size: 55px;
       }
     }
   }

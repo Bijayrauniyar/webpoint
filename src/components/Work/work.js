@@ -63,7 +63,7 @@ const Work = () => (
             </div>
           </div>
           <div className="row">
-            <div className="col">
+            <div className="col-lg-12">
               <div className="Work_list">
                 <img src="images/Youth-Summit.png" alt="" />
                 <div className="Work_list_title">Youth Summit</div>
@@ -84,7 +84,7 @@ const Work = () => (
                 </div>
               </div>
             </div>
-            <div className="col mt185">
+            <div className="col-lg-12 mt185">
               <div className="Work_list">
                 <img src="images/Corniche-Watches.png" alt="" />
                 <div className="Work_list_title">Corniche Watches</div>

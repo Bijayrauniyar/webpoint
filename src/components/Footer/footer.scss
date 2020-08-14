@@ -1,4 +1,6 @@
+@import "../../css/function";
 @import "../../css/variables";
+
 /* Footer */
 .footer {
   background: $footerBg;
@@ -34,6 +36,19 @@
         width: 100%;
       }
     }
+    @include respond-above(lg) {
+      margin-right: 150px;
+      &_link {
+        display: inline;
+        font-size: 60px;
+      }
+    }
+    @include respond-above(sm) {
+      margin-right: 0;
+      &_link {
+        font-size: 55px;
+      }
+    }
   }
   &_right {
     &_title {
@@ -63,6 +78,9 @@
       margin-top: -33px;
       opacity: 0.61;
       text-decoration: none;
+    }
+    @include respond-above(sm) {
+      margin-top: 100px;
     }
   }
   &_bottom {

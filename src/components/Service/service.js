@@ -11,7 +11,7 @@ const Service = () => {
     <section className="Services">
       <div className="container-fluid">
         <div className="row justify-content-center">
-          <div className="col-lg-10 d-flex">
+          <div className="col-lg-10 d-flex sm-column">
             <span className="section-title">Our Sevices</span>
             <div className="Services_list">
               <div className="Services_list_wrap">

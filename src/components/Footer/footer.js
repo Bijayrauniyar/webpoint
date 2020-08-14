@@ -6,7 +6,7 @@ const Footer = () => (
   <footer className="footer">
     <div className="container-fluid">
       <div className="row justify-content-center">
-        <div className="col-lg-10 d-flex ">
+        <div className="col-lg-10 d-flex sm-column">
           <div className="footer_left">
             <span className="footer_left_title">Contact us</span>
             <a href="#" className="footer_left_link">
