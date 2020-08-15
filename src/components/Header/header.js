@@ -31,7 +31,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-      {menu && <Navigation menuToggle={menuToggle} />}
+      <Navigation menu={menu} menuToggle={menuToggle} />
     </>
   )
 }
