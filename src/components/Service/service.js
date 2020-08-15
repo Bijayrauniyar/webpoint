@@ -23,7 +23,7 @@ const Service = () => {
                 >
                   Design
                 </span>
-                <ul className={design ? "" : "Services_list_description"}>
+                <ul className={design ? "active" : "Services_list_description"}>
                   <li>UI/UX design</li>
                   <li>Branding / Logo design</li>
                   <li>Websites &amp; mobile apps</li>
