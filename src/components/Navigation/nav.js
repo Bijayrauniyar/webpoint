@@ -2,7 +2,7 @@ import React from "react"
 import "./navigation.scss"
 
 const Navigation = ({ menu, menuToggle }) => (
-  <section className={menu ? "active Navigation" : ""}>
+  <section className={menu ? "Navigation active" : "Navigation"}>
     <div className="container-fluid">
       <div className="d-flex row justify-content-center">
         <div className="col-lg-12 d-flex justify-content-between">
@@ -11,7 +11,12 @@ const Navigation = ({ menu, menuToggle }) => (
               <img src="images/logo-white.svg" />
             </a>
           </div>
-          <img src="images/close.svg" alt="" onClick={menuToggle} />
+          <img
+            className="close"
+            src="images/close.svg"
+            alt=""
+            onClick={menuToggle}
+          />
         </div>
         <div className="col-lg-11 navbar">
           <ul className="menu">

@@ -23,7 +23,13 @@ const Service = () => {
                 >
                   Design
                 </span>
-                <ul className={design ? "active" : "Services_list_description"}>
+                <ul
+                  className={
+                    design
+                      ? "Services_list_description active"
+                      : "Services_list_description"
+                  }
+                >
                   <li>UI/UX design</li>
                   <li>Branding / Logo design</li>
                   <li>Websites &amp; mobile apps</li>
@@ -39,7 +45,13 @@ const Service = () => {
                 >
                   Development
                 </span>
-                <ul className={development ? "" : "Services_list_description"}>
+                <ul
+                  className={
+                    development
+                      ? "Services_list_description active"
+                      : "Services_list_description"
+                  }
+                >
                   <li>HTML/CSS/JS</li>
                   <li>React/Angular/Vue</li>
                   <li>Backend/API integrations</li>
@@ -57,7 +69,13 @@ const Service = () => {
                 >
                   E-Commerce
                 </span>
-                <ul className={ecommerce ? "" : "Services_list_description"}>
+                <ul
+                  className={
+                    ecommerce
+                      ? "Services_list_description active"
+                      : "Services_list_description"
+                  }
+                >
                   <li>Shopify</li>
                   <li>WooCommerce</li>
                   <li>BigCommerce</li>
@@ -74,7 +92,13 @@ const Service = () => {
                 >
                   Content
                 </span>
-                <ul className={content ? "" : "Services_list_description"}>
+                <ul
+                  className={
+                    content
+                      ? "Services_list_description active"
+                      : "Services_list_description"
+                  }
+                >
                   <li>Copywriting</li>
                   <li>Animation</li>
                   <li>Iconography</li>

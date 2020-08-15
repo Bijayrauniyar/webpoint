@@ -7,7 +7,9 @@
     margin-bottom: 73px;
   }
   &_list {
+    display: block;
     margin-bottom: 238px;
+    text-decoration: none;
     &_title {
       color: $black;
       font-size: 28px;
@@ -22,6 +24,12 @@
       line-height: 117.4%;
       margin-top: 11px;
       opacity: 0.7;
+      visibility: hidden;
+    }
+    &:hover {
+      &_description {
+        visibility: visible;
+      }
     }
   }
 }

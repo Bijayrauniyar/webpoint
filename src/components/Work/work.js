@@ -11,7 +11,7 @@ const Work = () => (
       <div className="row justify-content-center">
         <div className="col-lg-10">
           <span className="section-title">Our Work</span>
-          <div className="Work_list">
+          <a href="#" className="Work_list">
             <video
               muted
               playsInline
@@ -27,8 +27,8 @@ const Work = () => (
             <div className="Work_list_description">
               UX/UI, Mobile, Fron-end, Back-end
             </div>
-          </div>
-          <div className="Work_list">
+          </a>
+          <a href="#" className="Work_list">
             <video
               muted
               playsInline
@@ -44,8 +44,8 @@ const Work = () => (
             <div className="Work_list_description">
               UX/UI, Mobile, Fron-end, Back-end
             </div>
-          </div>
-          <div className="Work_list">
+          </a>
+          <a href="#" className="Work_list">
             <video
               muted
               playsInline
@@ -61,42 +61,42 @@ const Work = () => (
             <div className="Work_list_description">
               UX/UI, Mobile, Fron-end, Back-end
             </div>
-          </div>
+          </a>
           <div className="row">
             <div className="col-md-6 col-sm-12">
-              <div className="Work_list">
+              <a href="#" className="Work_list">
                 <img src="images/Youth-Summit.png" alt="" />
                 <div className="Work_list_title">Youth Summit</div>
                 <div className="Work_list_description">
                   UX/UI, Mobile, Fron-end, Back-end
                 </div>
-              </div>
-              <div className="Work_list">
+              </a>
+              <a href="#" className="Work_list">
                 <img src="images/Children's-Century.png" alt="" />
                 <div className="Work_list_title">
                   Children's Century ClassNameics
                 </div>
-              </div>
-              <div className="Work_list">
+              </a>
+              <a href="#" className="Work_list">
                 <img src="images/Family-Home-Christian-Books.png" alt="" />
                 <div className="Work_list_title">
                   Family Home Christian Books
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-md-6 col-sm-12 mt185">
-              <div className="Work_list">
+              <a href="#" className="Work_list">
                 <img src="images/Corniche-Watches.png" alt="" />
                 <div className="Work_list_title">Corniche Watches</div>
-              </div>
-              <div className="Work_list">
+              </a>
+              <a href="#" className="Work_list">
                 <img src="images/LSAT-Preparation.png" alt="" />
                 <div className="Work_list_title">LSAT Preparation</div>
-              </div>
-              <div className="Work_list">
+              </a>
+              <a href="#" className="Work_list">
                 <img src="images/Plate-App.png" alt="" />
                 <div className="Work_list_title">Plate App</div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
