@@ -10,6 +10,7 @@
     display: block;
     margin-bottom: 238px;
     text-decoration: none;
+    $root: &;
     &_title {
       color: $black;
       font-size: 28px;
@@ -25,11 +26,15 @@
       margin-top: 11px;
       opacity: 0.7;
       visibility: hidden;
+      transition: visiblity ease-out 0.4s;
     }
-    &:hover {
-      &_description {
-        visibility: visible;
-      }
+  }
+}
+.Work_list {
+  &:hover {
+    .Work_list_description {
+      visibility: visible;
+      transition: visiblity ease-out 0.4s;
     }
   }
 }
