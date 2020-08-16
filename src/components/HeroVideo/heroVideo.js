@@ -6,7 +6,7 @@ const HeroVideo = () => (
     <div className="container-fluid">
       <div className="row justify-content-center">
         <div className="col-lg-10">
-          <div className="HeroVideo_text">
+          <div className="HeroVideo_text" data-sal="slide-up">
             <h1>
               We are a full service web & mobile applications development
               company

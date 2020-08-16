@@ -24,17 +24,16 @@
       font-size: 22px;
       line-height: 117.4%;
       margin-top: 11px;
-      opacity: 0.7;
-      visibility: hidden;
-      transition: visiblity ease-out 0.4s;
+      opacity: 0;
+      transition: opacity ease-out 0.4s;
     }
   }
 }
 .Work_list {
   &:hover {
     .Work_list_description {
-      visibility: visible;
-      transition: visiblity ease-out 0.4s;
+      opacity: 0.7;
+      transition: opacity ease-in 0.4s;
     }
   }
 }

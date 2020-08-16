@@ -8,7 +8,12 @@ const Service = () => {
   const [content, setContent] = useState(false)
 
   return (
-    <section className="Services">
+    <section
+      className="Services"
+      data-sal="slide-up"
+      data-sal-delay="150"
+      data-sal-easing="ease"
+    >
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-lg-10 d-flex sm-column">
