@@ -36,7 +36,7 @@ const Header = () => {
           <div className="d-flex row justify-content-center">
             <div className="col-lg-12 d-flex justify-content-between">
               <div className="logo">
-                <Link to="">
+                <Link to="/">
                   <img src="images/logo-blue.svg" />
                 </Link>
               </div>
