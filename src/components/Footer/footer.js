@@ -1,6 +1,7 @@
 import React from "react"
 
 import "./footer.scss"
+import { Link } from "gatsby"
 
 const Footer = () => (
   <footer className="footer">
@@ -26,11 +27,14 @@ const Footer = () => (
             <a className="facebook" href="#">
               Facebook
             </a>
+            <a className="facebook" href="#">
+              Instagram
+            </a>
           </div>
         </div>
         <div className="col-lg-10 footer_bottom">
           <span>© 2020 WebPoint Solutions, LLC</span>
-          <a href="#">Privacy Policy</a>
+          <Link to="/privacy-policy">Privacy Policy</Link>
         </div>
       </div>
     </div>
