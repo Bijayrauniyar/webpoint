@@ -23,8 +23,8 @@ const Contact = () => (
                   <input placeholder="Name" type="text" name="name" />
                   <div class="input-wrapper">
                     <input
-                      id="firstName"
-                      name="fname"
+                      id="email"
+                      name="email"
                       type="email"
                       maxlength="50"
                       required
