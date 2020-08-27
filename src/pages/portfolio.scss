@@ -5,6 +5,9 @@
   &_top {
     margin-top: 150px;
     margin-bottom: 90px;
+    @include respond-above(sm) {
+      margin-top: 50px;
+    }
     ul {
       list-style: none;
       margin: 0;
@@ -195,13 +198,15 @@
       left: 0;
       bottom: -2px;
       display: block;
-      width: 100%;
+      opacity: 0;
+      width: 0;
       transition: all ease 500ms;
     }
     &:hover {
-      color: $blue;
       &:after {
-        border-color: $blue;
+        opacity: 1;
+        transition: all ease 500ms;
+        width: 100%;
       }
     }
     @include respond-above(sm) {
