@@ -8,12 +8,12 @@ const Navigation = ({ menu, menuToggle }) => (
         <div className="col-lg-12 d-flex justify-content-between">
           <div className="logo">
             <Link to="/">
-              <img src="images/logo-white.svg" />
+              <img src="/images/logo-white.svg" />
             </Link>
           </div>
           <img
             className="close"
-            src="images/close.svg"
+            src="/images/close.svg"
             alt=""
             onClick={menuToggle}
           />
