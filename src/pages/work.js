@@ -12,7 +12,7 @@ const Work = () => (
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="container-fluid">
-              <h1>Work page</h1>
+              <h1>Work</h1>
               <div className="row">
                 <div className="col-md-6 col-sm-12">
                   <a href="#" className="Work_list" data-aos="fade-up">
