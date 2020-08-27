@@ -2,11 +2,11 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "./portfolio.scss"
+import "./youth-summit.scss"
 
-const Portfolio = () => (
+const YouthSummit = () => (
   <Layout>
-    <SEO title="Portfolio" />
+    <SEO title="Youth Summit" />
     <section className="Portfolio">
       <div className="container-fluid">
         <div className="row justify-content-center">
@@ -78,4 +78,4 @@ const Portfolio = () => (
   </Layout>
 )
 
-export default Portfolio
+export default YouthSummit
