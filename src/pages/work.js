@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
 import "./work.scss"
 
 const Work = () => (
@@ -15,7 +16,11 @@ const Work = () => (
               <h1>Work</h1>
               <div className="row">
                 <div className="col-md-6 col-sm-12">
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  <Link
+                    to="/youth-summit"
+                    className="Work_list"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img src="/images/Youth-Summit.png" alt="" />
                       <span className="open-case">
@@ -27,8 +32,12 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link
+                    to="/lineage-journey"
+                    className="Work_list"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img src="/images/Lineage-Journey.png" alt="" />
                       <span className="open-case">
@@ -40,8 +49,8 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link to="/fhcb" className="Work_list" data-aos="fade-up">
                     <div className="media-container">
                       <img
                         src="/images/Family-Home-Christian-Books.png"
@@ -58,8 +67,12 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link
+                    to="/childrens-century-classics"
+                    className="Work_list"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img src="/images/Children's-Century.png" alt="" />
                       <span className="open-case">
@@ -73,8 +86,12 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link
+                    to="/sweet-sanity"
+                    className="Work_list"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img src="/images/Sweet-Sanity.png" alt="" />
                       <span className="open-case">
@@ -86,8 +103,12 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link
+                    to="/home-health-education"
+                    className="Work_list"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img
                         src="/images/Home-Health-Education-Service.png"
@@ -104,8 +125,12 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link
+                    to="/reach-nepal"
+                    className="Work_list"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img src="/images/Reach-Nepal.png" alt="" />
                       <span className="open-case">
@@ -117,10 +142,10 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-md-6 col-sm-12 mt185">
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  <Link to="/corniche" className="Work_list" data-aos="fade-up">
                     <div className="media-container">
                       <img src="/images/Corniche-Watches.png" alt="" />
                       <span className="open-case">
@@ -132,8 +157,12 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link
+                    to="/jeewit-bachan"
+                    className="Work_list"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img src="/images/Jeewit-Bachan.png" alt="" />
                       <span className="open-case">
@@ -147,8 +176,12 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list mb123" data-aos="fade-up">
+                  </Link>
+                  <Link
+                    to="/plate-app"
+                    className="Work_list mb123"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img src="/images/Plate-App.png" alt="" />
                       <span className="open-case">
@@ -160,8 +193,12 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link
+                    to="/strategy-prep"
+                    className="Work_list"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img src="/images/LSAT-Preparation.png" alt="" />
                       <span className="open-case">
@@ -173,8 +210,12 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link
+                    to="/angelholm-brand-guidelines"
+                    className="Work_list"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img src="/images/Angelholm.png" alt="" />
                       <span className="open-case">
@@ -188,8 +229,12 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link
+                    to="/annual-report"
+                    className="Work_list"
+                    data-aos="fade-up"
+                  >
                     <div className="media-container">
                       <img src="/images/Annual-Report.png" alt="" />
                       <span className="open-case">
@@ -201,8 +246,8 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
-                  <a href="#" className="Work_list" data-aos="fade-up">
+                  </Link>
+                  <Link to="/cryptox" className="Work_list" data-aos="fade-up">
                     <div className="media-container">
                       <img src="/images/Cryptox.png" alt="" />
                       <span className="open-case">
@@ -214,7 +259,7 @@ const Work = () => (
                     <div className="Work_list_description">
                       UX/UI, Mobile, Fron-end, Back-end
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
