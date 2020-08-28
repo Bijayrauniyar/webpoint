@@ -1,5 +1,6 @@
 import React from "react"
 import "./work.scss"
+import { Link } from "gatsby"
 
 const Work = () => (
   <section className="Work">
@@ -62,7 +63,7 @@ const Work = () => (
           </a>
           <div className="row">
             <div className="col-md-6 col-sm-12">
-              <a href="#" className="Work_list" data-aos="fade-up">
+              <Link to="/youth-summit" className="Work_list" data-aos="fade-up">
                 <div className="media-container">
                   <img src="images/Youth-Summit.png" alt="" />
                   <span className="open-case">
@@ -74,8 +75,12 @@ const Work = () => (
                 <div className="Work_list_description">
                   UX/UI, Mobile, Fron-end, Back-end
                 </div>
-              </a>
-              <a href="#" className="Work_list" data-aos="fade-up">
+              </Link>
+              <Link
+                to="/childrens-century-classics"
+                className="Work_list"
+                data-aos="fade-up"
+              >
                 <div className="media-container">
                   <img src="images/Children's-Century.png" alt="" />
                   <span className="open-case">
@@ -89,7 +94,7 @@ const Work = () => (
                 <div className="Work_list_description">
                   UX/UI, Mobile, Fron-end, Back-end
                 </div>
-              </a>
+              </Link>
               <a href="#" className="Work_list" data-aos="fade-up">
                 <div className="media-container">
                   <img src="images/Family-Home-Christian-Books.png" alt="" />
