@@ -37,12 +37,12 @@ const Header = () => {
             <div className="col-lg-12 d-flex justify-content-between">
               <div className="logo">
                 <Link to="/">
-                  <img src="images/logo-blue.svg" />
+                  <img src="/images/logo-blue.svg" />
                 </Link>
               </div>
               <div className="menu d-flex align-items-center">
                 <a href="#" onClick={menuToggle}>
-                  <img src="images/menu.svg" />
+                  <img src="/images/menu.svg" />
                 </a>
               </div>
             </div>
