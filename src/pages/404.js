@@ -10,7 +10,7 @@ const NotFoundPage = () => (
     <div className="container-fluid not-found">
       <div className="row justify-content-center">
         <div className="col-10">
-          <img data-aos="fade-up" src="images/404.png" alt="404" />
+          <img data-aos="fade-up" src="../images/404.png" alt="404" />
           <h1 data-aos="fade-up" data-aos-duration="800">
             Whoops, that page is gone.
           </h1>

@@ -65,7 +65,7 @@ const Work = () => (
             <div className="col-md-6 col-sm-12">
               <Link to="/youth-summit" className="Work_list" data-aos="fade-up">
                 <div className="media-container">
-                  <img src="images/Youth-Summit.png" alt="" />
+                  <img src="../images/Youth-Summit.png" alt="" />
                   <span className="open-case">
                     open <br />
                     case
@@ -82,7 +82,7 @@ const Work = () => (
                 data-aos="fade-up"
               >
                 <div className="media-container">
-                  <img src="images/Children's-Century.png" alt="" />
+                  <img src="../images/Children's-Century.png" alt="" />
                   <span className="open-case">
                     open <br />
                     case
@@ -97,7 +97,7 @@ const Work = () => (
               </Link>
               <a href="#" className="Work_list" data-aos="fade-up">
                 <div className="media-container">
-                  <img src="images/Family-Home-Christian-Books.png" alt="" />
+                  <img src="../images/Family-Home-Christian-Books.png" alt="" />
                   <span className="open-case">
                     open <br />
                     case
@@ -114,7 +114,7 @@ const Work = () => (
             <div className="col-md-6 col-sm-12 mt185">
               <a href="#" className="Work_list" data-aos="fade-up">
                 <div className="media-container">
-                  <img src="images/Corniche-Watches.png" alt="" />
+                  <img src="../images/Corniche-Watches.png" alt="" />
                   <span className="open-case">
                     open <br />
                     case
@@ -127,7 +127,7 @@ const Work = () => (
               </a>
               <a href="#" className="Work_list" data-aos="fade-up">
                 <div className="media-container">
-                  <img src="images/LSAT-Preparation.png" alt="" />
+                  <img src="../images/LSAT-Preparation.png" alt="" />
                   <span className="open-case">
                     open <br />
                     case
@@ -140,7 +140,7 @@ const Work = () => (
               </a>
               <a href="#" className="Work_list mb123" data-aos="fade-up">
                 <div className="media-container">
-                  <img src="images/Plate-App.png" alt="" />
+                  <img src="../images/Plate-App.png" alt="" />
                   <span className="open-case">
                     open <br />
                     case
