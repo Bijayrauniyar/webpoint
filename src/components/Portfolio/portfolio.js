@@ -1,5 +1,6 @@
 import React from "react"
 import "./portfolio.scss"
+import { Link } from "gatsby"
 
 const Portfolio = ({
   projectName,
@@ -8,6 +9,7 @@ const Portfolio = ({
   goalsContent,
   processImage,
   resultContent,
+  nextPage,
 }) => {
   return (
     <section className="Portfolio">
@@ -53,9 +55,9 @@ const Portfolio = ({
               className="d-flex justify-content-center mb200"
               data-aos="fade-up"
             >
-              <a href="#" className="next">
+              <Link to={nextPage} className="next">
                 Next
-              </a>
+              </Link>
             </div>
           </div>
         </div>

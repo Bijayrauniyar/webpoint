@@ -1,6 +1,7 @@
 import React from "react"
 import "./navigation.scss"
 import { Link } from "gatsby"
+
 const Navigation = ({ menu, menuToggle }) => (
   <section className={menu ? "Navigation active" : "Navigation"}>
     <div className="container-fluid">

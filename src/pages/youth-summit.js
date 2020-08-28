@@ -25,6 +25,7 @@ const YouthSummit = () => (
       improvements. Now the main functions have become more
       accessible, and thanks to the responsive design the site is
       convenient to use on any device."
+      nextPage="/corniche"
     ></Portfolio>
   </Layout>
 )
