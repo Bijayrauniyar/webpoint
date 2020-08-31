@@ -14,6 +14,7 @@ const Corniche = () => (
       goalsContent="The main objective was to design a safisticated theme with a color scheme and layout the conveys the idea of luxury."
       processImage="/images/Corniche-process.png"
       resultContent="First of all, we developed a design system, so that all products of the company have a common style and adhere to the same rules in design. The interface has received significant improvements. Now the main functions have become more accessible, and thanks to the responsive design the site is convenient to use on any device."
+      nextPage="/lineage-journey"
     ></Portfolio>
   </Layout>
 )

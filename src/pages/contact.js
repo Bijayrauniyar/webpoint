@@ -18,7 +18,11 @@ const Contact = () => (
                 Feel free to fill out this form to just say hi or start a new
                 project.
               </p>
-              <form data-aos="fade-up">
+              <form
+                action="https://getform.io/f/319f9da7-23d6-412f-968f-880445c4cfda"
+                method="POST"
+                data-aos="fade-up"
+              >
                 <div className="d-flex justify-content-between">
                   <input placeholder="Name" type="text" name="name" />
                   <div class="input-wrapper">
