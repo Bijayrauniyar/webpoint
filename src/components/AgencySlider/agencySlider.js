@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css"
 
 export default function AgencySlider() {
   const [nav, setNav] = React.useState(null)
-  const [rtl, setRtl] = React.useState(false)
+  let interval
 
   let slider1 = []
 
@@ -14,16 +14,25 @@ export default function AgencySlider() {
     setNav(slider1)
   }, [slider1])
 
+  const next = () => {
+    slider1.slickNext()
+  }
+
+  const previous = () => {
+    slider1.slickPrev()
+  }
+
   const settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 500,
+    lazyLoad: "ondemand",
     autoPlay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 500,
     slidesToShow: 2,
     pauseOnHover: false,
     slidesToScroll: 1,
-    rtl: { rtl },
+    easing: "linear",
     responsive: [
       {
         breakpoint: 768,
@@ -34,29 +43,13 @@ export default function AgencySlider() {
     ],
   }
 
-  const pause = () => {
-    setRtl(false)
-    slider1.slickPause()
-  }
-  const next = () => {
-    setRtl(false)
-    slider1.slickNext()
-    slider1.slickPlay()
-  }
-
-  const previous = () => {
-    setRtl(true)
-    slider1.slickPrev()
-    slider1.slickPlay()
-  }
-
   return (
     <div className="container-fluid">
       <div className="row justify-content-end">
         <div className="col-lg-11 slider-wrap">
           <Slider
             {...settings}
-            rtl={rtl}
+            //rtl={rtl}
             asNavFor={nav}
             ref={slider => (slider1 = slider)}
           >
@@ -77,18 +70,18 @@ export default function AgencySlider() {
             </div>
           </Slider>
           <button
+            id="previous"
             className="button button-prev"
-            onMouseLeave={pause}
-            onMouseOver={previous}
-            onMouseMove={previous}
+            onMouseOver={() => (interval = setInterval(previous, 1000))}
+            onMouseOut={() => clearInterval(interval)}
           >
             Previous
           </button>
           <button
+            id="next"
             className="button button-next"
-            onMouseLeave={pause}
-            onMouseMove={next}
-            onMouseOver={next}
+            onMouseOver={() => (interval = setInterval(next, 1000))}
+            onMouseOut={() => clearInterval(interval)}
           >
             Next
           </button>
