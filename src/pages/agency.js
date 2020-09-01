@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./agency.scss"
+import AgencySlider from "../components/AgencySlider/agencySlider"
 
 const Agnecy = () => (
   <Layout>
@@ -104,6 +105,9 @@ const Agnecy = () => (
           </div>
         </div>
       </div>
+    </section>
+    <section>
+      <AgencySlider />
     </section>
   </Layout>
 )
