@@ -96,4 +96,53 @@
       }
     }
   }
+  &_slider {
+    background: $footerBg;
+    padding-bottom: 100px;
+    .slick-slider {
+      margin-right: -15px;
+      overflow: hidden;
+      @include respond-above(sm) {
+        margin-right: 0;
+      }
+      .slick-arrow {
+        display: none !important;
+      }
+    }
+    .slick-list {
+      margin-right: -95px;
+      @include respond-above(md) {
+        margin-right: -50px;
+      }
+    }
+    .slick-slide > div {
+      margin-right: 95px;
+      @include respond-above(md) {
+        margin-right: 50px;
+      }
+    }
+    .slider-wrap {
+      position: relative;
+      .button {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 40%;
+        opacity: 0;
+        &-prev {
+          left: 0;
+          cursor: url("../../static/images/long-arrow-left.svg"),
+            url("../../static/images/long-arrow-left.svg"), default;
+        }
+        &-next {
+          right: 0;
+          cursor: url("../../static/images/long-arrow-right.svg"),
+            url("../../static/images/long-arrow-right.svg"), default;
+        }
+      }
+    }
+    @include respond-above(sm) {
+      padding-bottom: 0;
+    }
+  }
 }

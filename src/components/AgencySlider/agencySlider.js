@@ -20,10 +20,18 @@ export default function AgencySlider() {
     speed: 1000,
     autoPlay: true,
     autoplaySpeed: 1000,
-    slidesToShow: 1.75,
+    slidesToShow: 2,
     pauseOnHover: false,
     slidesToScroll: 1,
     rtl: { rtl },
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   }
 
   const pause = () => {
@@ -43,49 +51,48 @@ export default function AgencySlider() {
   }
 
   return (
-    <div>
-      <Slider
-        {...settings}
-        rtl={rtl}
-        asNavFor={nav}
-        ref={slider => (slider1 = slider)}
-      >
-        <div key={1}>
-          <h3>1</h3>
+    <div className="container-fluid">
+      <div className="row justify-content-end">
+        <div className="col-lg-11 slider-wrap">
+          <Slider
+            {...settings}
+            rtl={rtl}
+            asNavFor={nav}
+            ref={slider => (slider1 = slider)}
+          >
+            <div key={1}>
+              <img src="/images/banner-1.png" alt="" />
+            </div>
+            <div key={2}>
+              <img src="/images/banner-2.png" alt="" />
+            </div>
+            <div key={3}>
+              <img src="/images/banner-3.png" alt="" />
+            </div>
+            <div key={4}>
+              <img src="/images/banner-4.png" alt="" />
+            </div>
+            <div key={5}>
+              <img src="/images/banner-5.png" alt="" />
+            </div>
+          </Slider>
+          <button
+            className="button button-prev"
+            onMouseLeave={pause}
+            onMouseOver={previous}
+            onMouseMove={previous}
+          >
+            Previous
+          </button>
+          <button
+            className="button button-next"
+            onMouseLeave={pause}
+            onMouseMove={next}
+            onMouseOver={next}
+          >
+            Next
+          </button>
         </div>
-        <div key={2}>
-          <h3>2</h3>
-        </div>
-        <div key={3}>
-          <h3>3</h3>
-        </div>
-        <div key={4}>
-          <h3>4</h3>
-        </div>
-        <div key={5}>
-          <h3>5</h3>
-        </div>
-        <div key={6}>
-          <h3>6</h3>
-        </div>
-      </Slider>
-      <div style={{ textAlign: "center" }}>
-        <button
-          className="button"
-          onMouseLeave={pause}
-          onMouseOver={previous}
-          onMouseMove={previous}
-        >
-          Previous
-        </button>
-        <button
-          className="button"
-          onMouseLeave={pause}
-          onMouseMove={next}
-          onMouseOver={next}
-        >
-          Next
-        </button>
       </div>
     </div>
   )

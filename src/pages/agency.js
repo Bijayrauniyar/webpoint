@@ -106,7 +106,7 @@ const Agnecy = () => (
         </div>
       </div>
     </section>
-    <section>
+    <section className="Agency_slider">
       <AgencySlider />
     </section>
   </Layout>
